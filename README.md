@@ -1,5 +1,5 @@
 # Training a MoE Model from scratch
-This is an implementation of a 4 expert Mixture of experts model based on the [NanoGPT project](https://github.com/KellerJordan/modded-nanogpt) by Keller Jordan. Each expert has the same architecture as the dense model, so the overall MoE is larger than the dense baseline, but has the same number of activated parameters. 
+This is an implementation of a 4 expert Mixture of experts model based on the [NanoGPT project](https://github.com/KellerJordan/modded-nanogpt) by Keller Jordan. All experts share the same architecture as the dense model, resulting in a larger overall MoE compared to the dense baseline, though only an equivalent number of parameters are activated per forward pass.
 # Running the MoE model
 ```bash
 git clone https://github.com/KellerJordan/modded-nanogpt.git && cd modded-nanogpt
