@@ -5,6 +5,6 @@ This is an implementation of a 4 expert Mixture of experts model based on the Na
 git clone https://github.com/KellerJordan/modded-nanogpt.git && cd modded-nanogpt
 uv venv
 uv pip install -r requirements.txt
-python data/cached_fineweb10B.py 24
+python fineweb10B.py 24
 ./train.sh
 ```
